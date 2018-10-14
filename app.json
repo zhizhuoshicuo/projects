@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/wxml/index.wxml",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "简历投递",
+    "navigationBarTextStyle":"black"
+  }
+}
