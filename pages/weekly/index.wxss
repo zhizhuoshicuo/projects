@@ -1,0 +1,12 @@
+/* pages/weekly/index.wxss */
+.swiper-movie{
+  height: 600rpx;
+}
+
+.view-movie{
+  height: 100%;
+}
+
+.view-describe{
+  height:400rpx;
+}

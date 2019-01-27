@@ -1,0 +1,7 @@
+<!--pages/test/index.wxml-->
+<view class='container'>
+  <image src='/images/test.jpg' class='image-banner'></image>
+  <text style='font-weight:bold;font-size: 60rpx;'>电影推荐</text>
+  <navigator url='../weekly/index' open-type='switchTab'>每周好片推荐</navigator>
+  <text>我的微博：weibo.com/chengyg</text>
+</view>

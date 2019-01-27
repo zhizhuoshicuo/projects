@@ -1,0 +1,7 @@
+
+
+.image-banner{
+  width: 375rpx;
+  height:375rpx;
+  border-radius: 50%;
+}

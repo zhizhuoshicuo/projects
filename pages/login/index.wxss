@@ -1,0 +1,27 @@
+/* pages/login/index.wxss */
+.image-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+
+}
+input {
+  background-color:white;
+  width: 70%;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+text{
+  position: relative;
+  left: 0;
+}
+.inputview{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}

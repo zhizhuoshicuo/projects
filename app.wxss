@@ -1,5 +1,5 @@
 /**app.wxss**/
-.container {
+/**.container {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -8,3 +8,13 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+**/
+
+.container{
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

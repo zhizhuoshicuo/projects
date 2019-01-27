@@ -1,0 +1,24 @@
+<!--pages/weekly/index.wxml-->
+<!--
+<view class="container">
+  <text style='font-weight:bold;font-size:60rpx;'>本周推荐</text>
+  <image src='{{thisWeekMovie.url}}' mode='aspectFit'></image>
+  <text>{{thisWeekMovie.name}}</text>
+  <text>点评：{{thisWeekMovie.decribe}}</text>
+  <text wx:if='{{thisWeekMovie.isHihglyRecommended}}' style='color:red'>强烈推荐</text>
+</view>
+-->
+<view>
+  <swiper class='swiper-movie' indicator-dots='true' previous-margin='180rpx' next-margin='180rpx' circular="true" current="0" bindchange='onSlideChangeEnd'>
+    <swiper-item wx:for='{{WeeklyMovieList}}'>
+      <view class='container view-movie'>
+        <image src='{{item.url}}' mode='aspectFit' bindtap='detail' data-movie-id='{{item.id}}' data-movie-name='{{item.name}}'></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <view class='container view-describe'>
+    <text>{{WeeklyMovieList[index].name}}</text>
+    <text>点评：{{WeeklyMovieList[index].decribe}}</text>
+    <text wx:if='{{WeeklyMovieList[index].isHihglyRecommended}}' style='color:red'>强烈推荐</text>
+  </view>
+</view>

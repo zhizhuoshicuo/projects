@@ -1,0 +1,5 @@
+<view>
+  <input placeholder='{{city}}' bindinput='getInputInfo'></input>
+  <button class='mybtn' bindtap='getInfo'>查询天气</button>
+  <view class="show">{{weather}}</view>
+</view>

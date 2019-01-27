@@ -1,0 +1,15 @@
+<!--pages/login/index.wxml-->
+<view class='image-item'>
+  <image src='/images/test.jpg' mode='aspectFit'></image>
+</view>
+<view class='image-item'>
+  <text space='nbsp'>用户名   </text>
+  <view class='image-item'>
+    <input>{{user}}</input>
+  </view>
+  <text space='nbsp'>密码   </text>
+  <view class='image-item'>
+    <input password='true'>{{password}}</input>
+  </view>
+  <button bindtap=''>登陆</button>
+</view>

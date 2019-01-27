@@ -1,13 +1,36 @@
 {
-  "pages":[
-    "pages/wxml/index.wxml",
+  "pages": [
+   
+    "pages/weekly/index",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/test/index",
+    "pages/wxml/index",
+    "pages/logs/logs",
+    "pages/detail/detail",
+    "pages/login/index",
+    
+    "pages/file/show/show"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "简历投递",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "功能案例测试",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "backgroundColor":"gray",
+    "color":"white",
+    "borderStyle":"white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "upload"
+      },
+      {
+        "pagePath": "pages/weekly/index",
+        "text": "show"
+      }
+    ]
   }
 }
